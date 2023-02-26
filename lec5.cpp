@@ -1,3 +1,4 @@
+//FOR LOOP
 #include<iostream>
 using namespace std;
 
@@ -19,7 +20,7 @@ int main() {
     cout<< (19<<1) <<endl;
     cout<< (21<<2) <<endl;
 
-    // Pre & Post increment & decrement
+    // Pre & Post increment/decrement
     int i = 7;
 
     cout<< (++i) <<endl;
@@ -46,9 +47,10 @@ int main() {
 
     int a = 0;
     int b = 1;
-    cout<< a << " " << b <<endl;
+    cout<< a << " " << b << " ";
+    int nextNum;
 
-    for (int i=0l i<=steps; i++) {
+    for (int i=0; i<=steps; i++) {
         nextNum = a + b;
         cout<< nextNum << " ";
 

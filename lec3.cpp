@@ -1,3 +1,4 @@
+//INPUTS & WHILE LOOP
 #include<iostream>
 using namespace std;
 
