@@ -30,7 +30,7 @@ int findInSortedRotatedArray(int arr[], int size, int item) {
         if (arr[mid] == item) {
             return mid;
         }
-        else if (item >= arr[0]) { //plot numbers on graoh to understand better
+        else if (item >= arr[0]) { //plot numbers on graph to understand better
             e = mid;
         }
         else {
