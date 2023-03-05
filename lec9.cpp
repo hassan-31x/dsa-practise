@@ -10,6 +10,9 @@ void printArray(int arr[], int size) {
 }
 
 void reverse(int arr[], int size) {
+
+    // arrays have garbage random value if we don't initialise it, if we initialise with some values, only those values will be assigned, rest will be 0/false
+
     /*int temp;
     for(int i=0; i<size/2; i++) {
         temp = arr[i];
