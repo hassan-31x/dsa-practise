@@ -24,13 +24,22 @@ int sum(int n) {
 
 // Time Complexity = O(2^n)
 // Space Complexity = O(n)
-int fibnacci(int n) { //this will not print the fibonacci series but will give the corresponding value of input position
+int fibonacci(int n) { //this will not print the fibonacci series but will give the corresponding value of input position
     if (n <= 2) return 1;
 
     int partial1 = fibnacci(n-1);
     int partial2 = fibnacci(n-2);
     return partial1 + partial2;
 }
+void fibonacciSeries(int n, int a = 0, int b = 1) {
+    if (n == 0) {
+        return;
+    }
+
+    cout << a << " ";
+    fibonacciSeries(n-1, b, a+b);
+}
+
 
 
 // Time Complexity = O(n)
@@ -75,7 +84,8 @@ int main() {
 
     cout<< factorial(5) <<endl;
     cout<< sum(100) <<endl;
-    cout<< fibnacci(10) <<endl;
+    cout<< fibonacci(10) <<endl;
+    // cout<< fibonacciSeries(10) <<endl;
     cout<< power(2, 2) <<endl;
 
     int arr[6] = {1, 2, 3, 4, 5, 6};
