@@ -39,5 +39,70 @@ int main() {
         n = n+!
     }
     */
-  
+    
+    //Prime Number Checker
+    /*
+    int num;
+    cin>> num;
+
+    if (num == 1) {
+        cout<< "Prime Number" <<endl;
+    }
+    else{
+        int start = 2;
+        bool prime = true;
+        while (start<num) {
+            if (num%start == 0) {
+                prime = 0;
+            }
+            start = start + 1;
+        }
+        
+        if (prime) {
+            cout<< "Prime Number" <<endl;
+        }
+        else {
+            cout<< "Not Prime" <<endl;;
+        }
+    }
+    */
+
+    //Pattern Question (print * with same number of rows and columns)
+    /*
+    int n;
+    cin>> n;
+
+    int row = 0;
+    while (row < n) {
+        int column = 0;
+
+        while (column < n) {
+            cout<< "*";
+            column = column + 1;
+        }
+        cout<<endl;
+
+        row = row + 1;
+    }
+    */
+
+    //Pattern Question 2 (print row numbers for input times row and columns)
+    /*
+    int n;
+    cin>> n;
+
+    int row = 1;
+    while (row <= n) {
+        int column = 1;
+
+        while (column <= n) {
+            cout<< row;
+            column = column + 1;
+        }
+        cout<<endl;
+
+        row = row + 1;
+    }
+    */
+    
 }
