@@ -39,5 +39,24 @@ int main() {
     }
     //Break and Continue also part of FOR loop
     */
+    
+    //Fibonacci Sequence
+    /*
+    int steps;
+    cin>> steps;
+
+    int a = 0;
+    int b = 1;
+    cout<< a << " " << b << " ";
+    int nextNum;
+
+    for (int i=0; i<=steps; i++) {
+        nextNum = a + b;
+        cout<< nextNum << " ";
+
+        a = b;
+        b = nextNum;
+    }
+    */
 
 }
