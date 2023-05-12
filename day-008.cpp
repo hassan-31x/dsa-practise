@@ -36,6 +36,26 @@ int factorial(int n) {
     return ans;
 }
 
+//Void
+void printCounting(int n) { //using void as it doesn't return anything
+    for(int i=1; i<=n; i++) {
+        cout<< i << " ";
+    }
+}
+//we can also return nothing in void, just use the 'return;' keyword to end the function
+
+//Prime Number Function 
+bool isPrime(int n) {
+    for(int i=2; i<n; i++) {
+        if (n%i == 0) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+//functions by default are byval not byref
+
 
 int main() {
 
