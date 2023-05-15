@@ -24,11 +24,18 @@ int test(int arr[], int size) {
     cout<< ans;
 }
 
+void swapAlternate(int arr[], int size) {
+    for(int i=0, count=0; count<size/2; i+=2, count++) {
+        swap(arr[i], arr[i+1]);
+    }
+}
+
 
 int main() {
     int a[11] = {2, 5, 1, -9, 6, -2, 7, 0, 21, 98, 4};
     int b[7] = {6, 3, 1, 5, 4, 3, 2};
     test(b, 5);
+    // swapAlternate(a, 11);
 
     // printArray(a, 11);
 
