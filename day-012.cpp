@@ -66,10 +66,32 @@ int lastOccurance(int arr[], int size, int item) {
     return ans;
 }
 
+int highest(int arr[], int size) {
+    int s = 0, e = size-1;
+    int mid = s + (e-s)/2;
+
+    while(true) {
+
+        if (arr[mid] > arr[mid-1] && arr[mid] > arr[mid+1]) {
+            return mid;
+        }
+        else if (arr[mid] < arr[mid-1]) {
+            e = mid;
+        }
+        else if (arr[mid] < arr[mid+1]) {
+            s = mid + 1;
+        }
+        mid = s + (e-s)/2;
+    }
+}
+
+
 int main() {
     int even[6] = {2, 4, 6, 8, 12, 18};
     int odd[5] = {3, 8, 11, 14, 16};
     int occurance[12] = {1, 2, 3, 3, 3, 3, 3, 4, 4, 4, 5, 7};
+    int mountain[7] = {0, 1, 3, 4, 7, 5, 2};
+    int mountain2[5] = {3,5,3,2,0};
   
     // int index = binarySearch(odd, 5, 11);
   
@@ -77,4 +99,6 @@ int main() {
     // int last = lastOccurance(occurance, 12, 4);
     // int totalOccurances = (last-first) + 1;
     
+    // int high = highest(mountain, 7);
+    // int high2 = highest(mountain2, 5);
 }
