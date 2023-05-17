@@ -56,12 +56,35 @@ double morePrecision(int n, int precision, int tempSol) {
     return ans;
 }
 
+double sqrtIntegerUsingBinarySearch(int num) {
+    int start = 0;
+    int end = num;
+    long long int mid, square, ans = -1;; //'long long int' because mid*mid can be out of range if number is very large
+
+    while(start<=end) {
+        mid = start + (end-start)/2;
+
+        square = mid*mid;
+        if (square == num) {
+            return mid;
+        }
+        if (square > num) {
+            end = mid - 1;
+        }
+        if (square < num) {
+            start = mid + 1;
+            ans = mid;
+        }
+    }
+    return morePrecision(num, 3, ans);
+}
+
 
 int main() {
-
     int pivotArr[6] = {6, 7, 9, 1, 2, 3};
 
     // cout<< findPivot(pivotArr, 6);
     // cout<< findInSortedRotatedArray(pivotArr, 6, 8);
 
+    // cout<< sqrtIntegerUsingBinarySearch(101)<< endl;
 }
