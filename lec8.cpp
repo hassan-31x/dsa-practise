@@ -42,7 +42,7 @@ void printCounting(int n) { //using void as it doesn't return anything
         cout<< i << " ";
     }
 }
-//we can also return nothing in void, just use the 'return' keyword to end the function
+//we can also return nothing in void, just use the 'return;' keyword to end the function
 
 //Prime Number Function 
 bool isPrime(int n) {

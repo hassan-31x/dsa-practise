@@ -15,10 +15,10 @@ int main() {
     cout<< "XOR: a^b = " << (a^b) <<endl;
 
     // Bit Shifting
-    cout<< (17>>1) <<endl;
-    cout<< (17>>2) <<endl;
-    cout<< (19<<1) <<endl;
-    cout<< (21<<2) <<endl;
+    cout<< (17>>1) <<endl; //right shift (number is doubled)
+    cout<< (17>>2) <<endl; //right shift (number is doubled)
+    cout<< (19<<1) <<endl; //left shift (number is halved)
+    cout<< (21<<2) <<endl; //left shift (number is halved)
 
     // Pre & Post increment/decrement
     int i = 7;
@@ -58,6 +58,9 @@ int main() {
         b = nextNum;
     }
     */
+
+    //If we redeclare a variable inside a condition, it will use the new variable as reference and vice versa
+    //If we declare a variable inside a condition, it can not be used outside
 
    
 }
