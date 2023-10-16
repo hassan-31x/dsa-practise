@@ -7,9 +7,9 @@ int main() {
     /*
     cout<< "hello world" <<endl; / cout<< "hello wolrd\n";
 
-    int a = 32;
-    char b = 'x';
-    float x = 1.2;
+    int a = 32; //4 bytes (32bits, no matter how much it take, computer add preceding 0s to fill the space)
+    char b = 'x'; //1 byte
+    float x = 1.2; //4 bytes (32bits, no matter how much it take, computer add preceding 0s to fill the space)
     double y = 1.23;
     bool z = true (printing z will print 1)
 
