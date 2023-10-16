@@ -125,4 +125,6 @@ int main() {
     */
 
     // printCounting(20);
+
+    //Function receives varialnle by value (if we change a parameter, it does not change it outside)
 }
