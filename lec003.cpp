@@ -35,7 +35,7 @@ int main() {
     /*
     int n;
     while (n <= 10) {
-        cout << "value of n is: " << n;
+        cout << "Value of n is: " << n;
         n = n+!
     }
     */
