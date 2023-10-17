@@ -25,7 +25,7 @@ int test(int arr[], int size) {
 }
 
 void swapAlternate(int arr[], int size) {
-    for(int i=0, count=0; count<size/2; i+=2, count++) {
+    for(int i=0, count=0; count<size/2; i+=2, count++) { //looping variable is count, we use i to swap elements and increase it 2 times everytime for alternate
         swap(arr[i], arr[i+1]);
     }
 }
