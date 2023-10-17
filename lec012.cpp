@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int binarySearch(int arr[], int size, int item) {
+int binarySearch(int arr[], int size, int item) { //TC => O(logN)
     int start = 0;
     int end = size-1;
     int mid;
