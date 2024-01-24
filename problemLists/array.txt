@@ -1,6 +1,6 @@
-Unique Number of Uccurances: https://leetcode.com/problems/unique-number-of-occurrences/description/
+Unique Number of Uccurances: https://leetcode.com/problems/unique-number-of-occurrences/
 
-Find all Duplicates in Array: https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+Find all Duplicates in Array: https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
 Find common elements in 2 Arrays: https://www.codingninjas.com/studio/problems/intersection-of-2-arrays_1082149
 

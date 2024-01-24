@@ -1,7 +1,7 @@
 Number of 1 bits in Binary - (Bit Shifting & AND Operator): https://leetcode.com/problems/number-of-1-bits/
 
-Complement (Masking): https://leetcode.com/problems/complement-of-base-10-integer/
+Complement of a Denary number - (Masking with AND, NOT Operator): https://leetcode.com/problems/complement-of-base-10-integer/
 
-Find Unique in Array & XOR Operator: https://www.codingninjas.com/studio/problems/find-unique_625159
+Find Unique in Array - (XOR Operator): https://www.codingninjas.com/studio/problems/find-unique_625159
 
 Find Duplicate: https://www.codingninjas.com/studio/problems/duplicate-in-array_893397

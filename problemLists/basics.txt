@@ -1,5 +1,5 @@
 Find product & sum of Integer Digits - (Integer Slicing): https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 
-Reverse Integer: https://leetcode.com/problems/reverse-integer/
+Reverse an Integer - (Slicing, DIV, MOD): https://leetcode.com/problems/reverse-integer/
 
-Power of 2: https://leetcode.com/problems/power-of-two/
+Find if Power of 2 - (cater edge cases): https://leetcode.com/problems/power-of-two/
