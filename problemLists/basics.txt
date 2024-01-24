@@ -1,4 +1,4 @@
-Integer Slicing: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+Find product & sum of Integer Digits - (Integer Slicing): https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 
 Reverse Integer: https://leetcode.com/problems/reverse-integer/
 

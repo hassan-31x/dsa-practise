@@ -1,4 +1,4 @@
-Bit Shifting & AND Operator: https://leetcode.com/problems/number-of-1-bits/
+Number of 1 bits in Binary - (Bit Shifting & AND Operator): https://leetcode.com/problems/number-of-1-bits/
 
 Complement (Masking): https://leetcode.com/problems/complement-of-base-10-integer/
 
