@@ -4,4 +4,4 @@ Complement of a Denary number - (Masking with AND, NOT Operator): https://leetco
 
 Find Unique in Array - (XOR Operator): https://www.codingninjas.com/studio/problems/find-unique_625159
 
-Find Duplicate: https://www.codingninjas.com/studio/problems/duplicate-in-array_893397
+Find A SINGLE Duplicate element in an Array (XOR Operator): https://www.codingninjas.com/studio/problems/duplicate-in-array_893397

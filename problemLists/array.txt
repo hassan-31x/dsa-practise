@@ -1,12 +1,12 @@
-Unique Number of Uccurances: https://leetcode.com/problems/unique-number-of-occurrences/
+Checking Unique Number of Occurances - (storing count for each num): https://leetcode.com/problems/unique-number-of-occurrences/
 
-Find all Duplicates in Array: https://leetcode.com/problems/find-all-duplicates-in-an-array/
+Find ALL Duplicates in Array - (sorting & then linear traversal): https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
-Find common elements in 2 Arrays: https://www.codingninjas.com/studio/problems/intersection-of-2-arrays_1082149
+Find common elements in 2 Sorted Arrays - (sort of 2 Pointer approach): https://www.codingninjas.com/studio/problems/intersection-of-2-arrays_1082149
 
-Target Pair Sum: https://www.codingninjas.com/studio/problems/pair-sum_697295
+Target Pair Sum for multiple pairs - (nested loops): https://www.codingninjas.com/studio/problems/pair-sum_697295
 
-Sort 0/1 Array: https://www.codingninjas.com/studio/problems/sort-0-1_624379
+Sort 0/1 Array - (2 Pointer approach): https://www.codingninjas.com/studio/problems/sort-0-1_624379
 
 Sprt 0/1/2 Array: https://www.codingninjas.com/studio/problems/sort-0-1-2_631055
 
