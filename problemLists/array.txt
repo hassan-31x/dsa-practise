@@ -11,3 +11,7 @@ Sort 0/1 Array - (2 Pointer approach): https://www.codingninjas.com/studio/probl
 Sprt 0/1/2 Array: https://www.codingninjas.com/studio/problems/sort-0-1-2_631055
 
 3Sum: https://www.codingninjas.com/studio/problems/triplets-with-given-sum_893028
+
+First & Last Occurance in sorted array - (Binary Search): https://www.codingninjas.com/studio/problems/first-and-last-position-of-an-element-in-sorted-array_1082549
+
+Peak Index in Mountain Array - (Binary Search): https://leetcode.com/problems/peak-index-in-a-mountain-array/solutions/
