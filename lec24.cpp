@@ -1,12 +1,18 @@
-// MATHEMATICS FOR DSA (Algorithms)
+//? MATHEMATICS FOR DSA (Algorithms)
 #include<iostream>
 using namespace std;
 
+//TODO: Segmented Sieve
+//TODO: Pegionhole Principle
+//TODO: Catalon Number
+//TODO: Incl. Excl. Principle
+
 // 'Sieve Of Eratosthenes' algorithm for Prime Number
+//* TC: O(n*log(log(n)))
 int countPrimes(int n) {
     int count = 0; //count to store prime numbers
     
-    // vector<bool> prime(n+1, true); //array/vector to keep track of prime & non-prime numbers
+    vector<bool> prime(n+1, true); //array/vector to keep track of prime & non-prime numbers
     int prime[n+1];
     for(int j=0; j<=n+1; j++) {
         prime[j] = true;
@@ -30,7 +36,8 @@ int countPrimes(int n) {
 
 
 // gcd(a, b) = gcd(a-b, b)
-//lcm(a, b) * gcd(a, b) = a*b
+//* https://www.codingninjas.com/studio/library/gcd-euclidean-algorithm
+// lcm(a, b) * gcd(a, b) = a*b
 int gcd(int a, int b) {
 
     if (a==0) 
@@ -49,6 +56,10 @@ int gcd(int a, int b) {
     return a;
 }
 
+
+//! How to give answer in modulo form: https://codeforces.com/blog/entry/72527
+
+
 int exponent(int x, int n) { // T.C: O(n)
     int ans = x;
 
@@ -62,7 +73,8 @@ int exponent(int x, int n) { // T.C: O(n)
 }
 
 //Modulo Arithmetics
-int fastExponent(int x, int n) { // T.C: O(log(n))
+//* T.C: O(log(n))
+int fastExponent(int x, int n) {  //raise x to power n
     int ans = 1;
 
     while(n>0) {
