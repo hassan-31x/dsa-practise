@@ -37,3 +37,9 @@ Reverse Array - (2 Pointer approach): https://www.codingninjas.com/studio/proble
 Merge 2 Sorted Arrays - (2 Pointer for each array approach): https://leetcode.com/problems/merge-sorted-array/
 
 Move 0s to end of Array - (2 Pointer approach): https://leetcode.com/problems/move-zeroes
+
+Rotate Elements in Array - (Traversing & use of Modulus % operator): https://leetcode.com/problems/rotate-array
+
+Check if Array is Sorted & Rotated: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated
+
+Add the numbers in 2 Arrays: https://www.codingninjas.com/studio/problems/sum-of-two-arrays_893186
