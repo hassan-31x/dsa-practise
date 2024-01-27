@@ -14,6 +14,7 @@ int countPrimes(int n) {
     
     vector<bool> prime(n+1, true); //array/vector to keep track of prime & non-prime numbers
     int prime[n+1];
+    
     for(int j=0; j<=n+1; j++) {
         prime[j] = true;
     }
