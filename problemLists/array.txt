@@ -2,7 +2,7 @@ Checking Unique Number of Occurances - (storing count for each num): https://lee
 
 Find ALL Duplicates in Array - (sorting & then linear traversal): https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
-Find common elements in 2 Sorted Arrays - (sort of 2 Pointer approach): https://www.codingninjas.com/studio/problems/intersection-of-2-arrays_1082149
+Find common elements in 2 Sorted Arrays - (2 Pointer for each array approach): https://www.codingninjas.com/studio/problems/intersection-of-2-arrays_1082149
 
 Target Pair Sum for multiple pairs - (nested loops): https://www.codingninjas.com/studio/problems/pair-sum_697295
 
@@ -16,10 +16,20 @@ Sort 0/1/2 Array: https://www.codingninjas.com/studio/problems/sort-0-1-2_631055
 
 First & Last Occurance in sorted array - (Binary Search): https://www.codingninjas.com/studio/problems/first-and-last-position-of-an-element-in-sorted-array_1082549
 
-Peak Index in Mountain Array - (Binary Search): https://leetcode.com/problems/peak-index-in-a-mountain-array/solutions/
+Peak Index in Mountain Array - (Binary Search): https://leetcode.com/problems/peak-index-in-a-mountain-array/
 
 Book allocation - (Binary Search to narrow down Search Range): https://www.codingninjas.com/studio/problems/allocate-books_1090540
 
 Painter's Partition - (same as above): https://www.codingninjas.com/studio/problems/painter's-partition-problem_1089557
 
 <-------- SORTING -------->
+
+
+<---------------->
+
+
+Reverse Array - (2 Pointer approach): https://www.codingninjas.com/studio/problems/reverse-the-array_1262298
+
+Merge 2 Sorted Arrays - (2 Pointer for each array approach): https://leetcode.com/problems/merge-sorted-array/
+
+Move 0s to end of Array - (2 Pointer approach): https://leetcode.com/problems/move-zeroes
