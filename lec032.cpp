@@ -35,10 +35,10 @@ int main() {
     int n;
     cin >> n;
 
-    // printFibonacci(n);
-    // cout << endl;
+    printFibonacci(n);
+    cout << endl;
 
-    // cout << fibonacci(n) << endl;
+    cout << fibonacci(n) << endl;
 
     sayDigits(n);
 }
