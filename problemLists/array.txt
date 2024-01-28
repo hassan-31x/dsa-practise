@@ -8,30 +8,6 @@ Target Pair Sum for multiple pairs - (nested loops): https://www.codingninjas.co
 
 Sort 0/1 Array - (2 Pointer approach): https://www.codingninjas.com/studio/problems/sort-0-1_624379
 
-Sort 0/1/2 Array: https://www.codingninjas.com/studio/problems/sort-0-1-2_631055
-
-3Sum: https://www.codingninjas.com/studio/problems/triplets-with-given-sum_893028
-
-<-------- BINARY SEARCH -------->
-
-First & Last Occurance in sorted array - (Binary Search): https://www.codingninjas.com/studio/problems/first-and-last-position-of-an-element-in-sorted-array_1082549
-
-Peak Index in Mountain Array - (Binary Search): https://leetcode.com/problems/peak-index-in-a-mountain-array/
-
-Book allocation - (Binary Search to narrow down Search Range): https://www.codingninjas.com/studio/problems/allocate-books_1090540
-
-Painter's Partition - (same as above): https://www.codingninjas.com/studio/problems/painter's-partition-problem_1089557
-
-<-------- SORTING -------->
-
-Selection Sort: https://www.codingninjas.com/studio/problems/selection-sort_981162
-
-Bubble Sort - (2 approaches): https://www.codingninjas.com/studio/problems/bubble-sort_980524
-
-Insertion Sort: https://www.codingninjas.com/studio/problems/insertion-sort_3155179
-
-<---------------->
-
 Reverse Array - (2 Pointer approach): https://www.codingninjas.com/studio/problems/reverse-the-array_1262298
 
 Merge 2 Sorted Arrays - (2 Pointer for each array approach): https://leetcode.com/problems/merge-sorted-array/
@@ -43,3 +19,40 @@ Rotate Elements in Array - (Traversing & use of Modulus % operator): https://lee
 Check if Array is Sorted & Rotated: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated
 
 Add the numbers in 2 Arrays: https://www.codingninjas.com/studio/problems/sum-of-two-arrays_893186
+
+Sort 0/1/2 Array: https://www.codingninjas.com/studio/problems/sort-0-1-2_631055
+
+3Sum: https://www.codingninjas.com/studio/problems/triplets-with-given-sum_893028
+
+
+<-------- BINARY SEARCH -------->
+
+First & Last Occurance in sorted array - (Binary Search): https://www.codingninjas.com/studio/problems/first-and-last-position-of-an-element-in-sorted-array_1082549
+
+Peak Index in Mountain Array - (Binary Search): https://leetcode.com/problems/peak-index-in-a-mountain-array/
+
+Book allocation - (Binary Search to narrow down Search Range): https://www.codingninjas.com/studio/problems/allocate-books_1090540
+
+Painter's Partition - (same as above): https://www.codingninjas.com/studio/problems/painter's-partition-problem_1089557
+
+
+<-------- SORTING -------->
+
+Selection Sort: https://www.codingninjas.com/studio/problems/selection-sort_981162
+
+Bubble Sort - (2 approaches): https://www.codingninjas.com/studio/problems/bubble-sort_980524
+
+Insertion Sort: https://www.codingninjas.com/studio/problems/insertion-sort_3155179
+
+
+<-------- 2D Array -------->
+
+Print 2D Array like Wave - (Playing with Indexing in 2D Array): https://www.codingninjas.com/studio/problems/print-like-a-wave_893268
+
+Print Matrix in Spiral - (Indexing, Traversal & Observation): https://leetcode.com/problems/spiral-matrix/
+
+Rotate 2D Array - (Indexing & Traversal): https://leetcode.com/problems/rotate-image
+
+Binary Search 2D Array | [sorted linearly] - (Indexing): https://leetcode.com/problems/search-a-2d-matrix
+
+Binary Search 2D Array || [sorted per row & col]: https://leetcode.com/problems/search-a-2d-matrix-ii
