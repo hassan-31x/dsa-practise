@@ -1,3 +1,4 @@
+//? Recursion Practise
 #include<iostream>
 using namespace std;
 
@@ -22,12 +23,12 @@ bool isSortedFaster(int arr[], int size) { //compare only adjacent elements and 
         return 1;
     }
 
-    if (arr[0] > arr[1])
+    if (arr[0] > arr[1]) {
         return 0;
-    else {
-        bool remaining = isSortedFaster(arr+1, size-1); //pass the array without its first element as it has already been compared
-        return remaining;
     }
+
+    bool remaining = isSortedFaster(arr+1, size-1); //pass the array without its first element as it has already been compared
+    return remaining;
 }
 
 
@@ -55,12 +56,12 @@ bool linearSearch(int arr[], int size, int item) {
     if (size == 0)
         return 0;
 
-    if (arr[0] != item) {
-        bool temp = linearSearch(arr+1, size-1, item);
-        return temp;
-    } else {
+    if (arr[0] == item) {
         return 1;
     }
+
+    bool temp = linearSearch(arr+1, size-1, item);
+    return temp;
 }
 int linearSearchIndex(int arr[], int index, int size, int item) { //to be completed later
     if (size == 0)
@@ -71,6 +72,22 @@ int linearSearchIndex(int arr[], int index, int size, int item) { //to be comple
         return temp;
     } else {
         return index;
+    }
+}
+
+bool binarySearch(int *arr, int s, int e, int item) {
+    if (s>e) {
+        return 0;
+    }
+
+    int mid = s + (e-s)/2;
+
+    if (arr[mid] == item) {
+        return 1;
+    } else if (arr[mid] < item) {
+        return binarySearch(arr, mid+1, e, item);
+    } else {
+        return binarySearch(arr, s, mid-1, item);
     }
 }
 
