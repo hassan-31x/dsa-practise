@@ -1,0 +1,3 @@
+Get Number in Fibonacci Series at Index: https://leetcode.com/problems/fibonacci-number/
+
+Count Number of Ways to reach nth stair: https://www.codingninjas.com/studio/problems/count-ways-to-reach-nth-stairs_798650
