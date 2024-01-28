@@ -3,3 +3,7 @@ Get Number in Fibonacci Series at Index: https://leetcode.com/problems/fibonacci
 Count Number of Ways to reach nth stair: https://www.codingninjas.com/studio/problems/count-ways-to-reach-nth-stairs_798650
 
 Binary Search: https://www.codingninjas.com/studio/problems/binary-search_972
+
+Reverse String: https://www.codingninjas.com/studio/problems/reverse-the-string_799927
+
+Check if Binary of a Number is Palindrome: https://www.codingninjas.com/studio/problems/check-palindrome_920555
