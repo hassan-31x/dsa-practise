@@ -1,4 +1,4 @@
-// 2D ARRAYS
+//? 2D ARRAYS
 #include<climits> // for INT_MIN & INT_MAX
 #include<iostream>
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 // 2D arrays are for visualizing, in reality they are 1D array. Formula to find location in 1D array is ' col * i + j ', where col is total number of columns, i is row number, j is column number. This indexing is done in memory
 
 
-void inputArray(int arr[][4], int row, int col) {
+void inputArray(int arr[][4], int row, int col) { //we have to tell the number of columns in function paratemter for 2D array
     /*
     // row wise input
     for(int i=0; i<row; i++) {
@@ -158,6 +158,26 @@ void spiralMatrix(int arr[][4], int row, int col) {
     }
 }
 
+bool binarySearchMatrix(int arr[][4], int row, int col, int target) {
+    int s = 0, e = row*col-1;
+    int mid = s + (e-s)/2;
+
+    while(s<=e) {
+        //? FORUMLA: mid/col gives row number, mid%col gives column number
+        int element = arr[mid/col][mid%col]; 
+
+        if(element == target) {
+            return 1;
+        } else if (element > target) {
+            e = mid-1;
+        } else {
+            s = mid+1;
+        }
+        mid = s + (e-s)/2;
+    }
+    return -1
+}
+
 
 int main() {
 
@@ -185,4 +205,6 @@ int main() {
     // largestRowSum(arr, 3, 4);
     // colSizeWise(arr4, 4, 4);
     // spiralMatrix(arr, 3, 4);
+
+    // binarySearchMatrix(arr4, 4, 4, 10);
 }
