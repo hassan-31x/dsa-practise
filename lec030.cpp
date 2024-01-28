@@ -1,4 +1,4 @@
-//? Macros, Global Variables, Inline Functions, 
+//? Macros, Global Variables, Inline Functions, Default Arguments
 #include <iostream>
 using namespace std;
 
