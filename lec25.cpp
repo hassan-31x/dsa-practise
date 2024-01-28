@@ -1,4 +1,4 @@
-// POINTERS
+//? POINTERS
 #include<iostream>
 using namespace std;
 
@@ -31,9 +31,11 @@ int main() {
 
     (*ptr)++;
     cout<< num <<endl;
+    //ptr++; //this will change the address to next byte after the consumed number of bytes
 
+
+    //copying pointer
     int *q = ptr;
     cout<< *q <<endl;
     */
-
 }
