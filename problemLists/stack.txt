@@ -1,0 +1,13 @@
+Implement 2 Stack with an Array - (OOP Classes & 2 Pointers): https://www.codingninjas.com/studio/problems/two-stacks_983634
+
+Delete Middle element in Stack - (Recursion): https://www.codingninjas.com/studio/problems/delete-middle-element-from-stack_985246
+
+Valid Paranthesis: https://www.codingninjas.com/studio/problems/valid-parenthesis_795104
+
+Push a Number to Bottom of Stack - (Recursion): https://www.codingninjas.com/studio/problems/insert-an-element-at-its-bottom-in-a-given-stack_1171166
+
+Reverse Stack - (Recursion & prev. qs): https://www.codingninjas.com/studio/problems/reverse-stack-using-recursion_631875
+
+Sort a Stack - (Recursion & prev. 2 qs): https://www.codingninjas.com/studio/problems/sort-a-stack_985275
+
+Redundant Brackets - (similar to Valid Paranthesis): https://www.codingninjas.com/studio/problems/redundant-brackets_975473
