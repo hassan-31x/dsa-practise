@@ -11,3 +11,9 @@ Reverse Stack - (Recursion & prev. qs): https://www.codingninjas.com/studio/prob
 Sort a Stack - (Recursion & prev. 2 qs): https://www.codingninjas.com/studio/problems/sort-a-stack_985275
 
 Redundant Brackets - (similar to Valid Paranthesis): https://www.codingninjas.com/studio/problems/redundant-brackets_975473
+
+Convert Invalid Paranthesis to Valid: https://www.codingninjas.com/studio/problems/minimum-cost-to-make-string-valid_1115770
+
+Next Smaller element in Array in O(N): https://www.codingninjas.com/studio/problems/next-smaller-element_1112581
+
+Largest Area of Histograms - (uses previous code): https://leetcode.com/problems/largest-rectangle-in-histogram
