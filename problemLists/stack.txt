@@ -17,3 +17,5 @@ Convert Invalid Paranthesis to Valid: https://www.codingninjas.com/studio/proble
 Next Smaller element in Array for All Elements in O(N): https://www.codingninjas.com/studio/problems/next-smaller-element_1112581
 
 Largest Area of Histograms - (uses previous code): https://leetcode.com/problems/largest-rectangle-in-histogram
+
+Implement N Stacks in an Array - (Indexes): https://www.codingninjas.com/studio/problems/n-stacks-in-an-array_1164271
