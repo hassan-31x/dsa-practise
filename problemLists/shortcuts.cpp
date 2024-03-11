@@ -14,4 +14,7 @@ int main() {
     //? convert an int to long long int between operation
     //* 1LL*num
 
+    //pass array, stack, or queue by reference in recursion to avoid copying and save time and space
+
+    // sliding window + deque for O(n) time complexity
 }
