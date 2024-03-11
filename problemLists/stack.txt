@@ -19,3 +19,5 @@ Next Smaller element in Array for All Elements in O(N): https://www.codingninjas
 Largest Area of Histograms - (uses previous code): https://leetcode.com/problems/largest-rectangle-in-histogram
 
 Implement N Stacks in an Array - (Indexes): https://www.codingninjas.com/studio/problems/n-stacks-in-an-array_1164271
+
+Design Special Stack to get Minimum Element in O(1) Time & O(1) Space: https://www.codingninjas.com/studio/problems/design-a-stack-that-supports-getmin-in-o-1-time-and-o-1-extra-space_842465
