@@ -7,3 +7,5 @@ Reverse First K elements in a Queue: https://www.geeksforgeeks.org/problems/reve
 First Non-Repeating character in Preceeding String for All Characters: https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1
 
 Find Best Starting Point doing Circular Tour of Array - (Element dependant on Previous Elements in O(n)): https://www.geeksforgeeks.org/problems/circular-tour-1587115620/1
+
+Implement K Queues in An Array: https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/
