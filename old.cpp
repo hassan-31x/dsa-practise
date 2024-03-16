@@ -2,31 +2,12 @@
 #include<algorithm>
 using namespace std;
 
+//https://codeforces.com/gym/470895/problem/A
 int geometriProgression(int arr[], int n, int k) {
-    sort(arr, arr+n);
-    int ans = 0;
+    int pref[n] = {0};
+    int suff[n] = {0};
 
-    for (int i=0; i<n-2; i++) {
-        int j = i+1;
-        int a = arr[i];
-        int gp = 0;
-
-        while(j<n && (arr[j] >= a*k || gp<2)) {
-            // cout<< i << " "<< j << " "<< a*k << " "<< arr[j]  << " " << gp<< endl;
-            if(a*k == arr[j++]) {
-                // cout<< arr[j]<< " ";
-                gp++;
-                a *= k;
-                // cout<< i << " " << j << " " << gp<< " " << a<< endl;
-            }
-        }
-        if(gp>=2) {
-            ans++;
-        }
-
-        // cout<< ans << endl;
-    }
-    return ans;
+    for(int i = 0; i < n; i++) {}
 }
 
 bool isCat(string s) {
