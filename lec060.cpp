@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+    /*
     //create a queue
     queue<int> q;
 
@@ -26,5 +27,25 @@ int main() {
     }
     else {
         cout << "Queue is not empty" << endl;
+    }
+    */
+
+    //Doubly ended queue
+    deque<int> dq;
+
+    dq.push_front(10);
+    dq.push_back(20);
+
+    cout << "Front element: " << dq.front() << endl;
+    cout << "Back element: " << dq.back() << endl;
+
+    dq.pop_front();
+    dq.pop_back();
+
+    if(dq.empty()) {
+        cout << "Deque is empty" << endl;
+    }
+    else {
+        cout << "Deque is not empty" << endl;
     }
 }

@@ -1,3 +1,9 @@
+Implement a Queue using Array: https://www.codingninjas.com/studio/problems/queue-using-array-or-singly-linked-list_2099908?
+
+Implement a Curcular Queue using Array: https://www.codingninjas.com/studio/problems/circular-queue_1170058
+
+Implement a Doubly Ended Queue - (Dequeue): https://www.codingninjas.com/studio/problems/deque_1170059
+
 Reverse a Queue - (using Stack or Recursion): https://www.geeksforgeeks.org/problems/queue-reversal/1
 
 First Negative number in Every Window of size K in O(n) - (Sliding Window + Deque): https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
