@@ -9,3 +9,11 @@ Check If a Tree is Balanced or not - (optimised recursion): https://www.geeksfor
 Check If 2 Trees are Identical: https://www.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1
 
 Check If Every Node in a Tree is a Sum of its Left & Right Subtree - (same as balanced & diameter): https://www.geeksforgeeks.org/problems/sum-tree/1
+
+Zigzag Traversal for Each Level in a BT: (use of another array & additional step): https://www.geeksforgeeks.org/problems/zigzag-tree-traversal/1 
+
+Traverse Boundary Nodes in BT - (left side + leaf + right side, complete traversal): https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
+
+
+
+Sum of Longest Path from Root to Leaf - (same as balanced & diameter): https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1
