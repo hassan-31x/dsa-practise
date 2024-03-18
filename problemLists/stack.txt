@@ -18,6 +18,10 @@ Next Smaller element in Array for All Elements in O(N): https://www.codingninjas
 
 Largest Rectangular Area of Histograms with Heights - (uses previous code): https://leetcode.com/problems/largest-rectangle-in-histogram
 
+Find which Index's row contains all 1s & column contains all 0s in a Matrix - (celebrity problem): https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
+
+Find Maximum Area of Rextangle of 1s in Binary Matrix - (uses largest histogram area for each consecutive row): https://www.geeksforgeeks.org/problems/max-rectangle/1
+
 Implement N Stacks in an Array - (Indexes): https://www.codingninjas.com/studio/problems/n-stacks-in-an-array_1164271
 
 Design Special Stack to get Minimum Element in O(1) Time & O(1) Space: https://www.codingninjas.com/studio/problems/design-a-stack-that-supports-getmin-in-o-1-time-and-o-1-extra-space_842465
