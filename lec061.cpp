@@ -1,7 +1,8 @@
 //? Queues Practise Questions
-#include<iostrem>
+#include<iostream>
 #include<stack>
 #include<queue>
+#include<deque>
 using namespace std;
 
 void implementStackUsingQueue() {
@@ -153,8 +154,140 @@ queue<int> interleaveQueueUsingStack(queue<int> q) {
     return q;
 }
 
+class kQueue() {
+    public:
+        int n;
+        int k;
+        int *arr;
+        int *next;
+        int *front;
+        int *rear;
+        int freeSpot;
+
+    public:
+        kQueue(int n; int k) {
+            this -> n = n;
+            this -> k = k;
+            freeSpot = 0;
+
+            arr = new int[n];
+            next = new int[n];
+            for(int i=0; i<n; i++) {
+                arr[i] = 0;
+                next[i] = i+1;
+            }
+            next[n-1] = -1;
+
+            front = new int[k];
+            rear = new int[k];
+
+            for(int i=0; i<k; i++) {
+                front[i] = rear[i] = -1;
+            }
+        }
+
+        void enqueue(int data, int qn) {
+            //overflow
+            if(freeSpot == -1) {
+                cout<< "Queue is full"<< endl;
+                return;
+            }
+
+            //find first free index
+            int index = freeSpot;
+            //update freespot
+            freeSpot = next[i];
+
+
+            //check if first element of queue
+            if(front[qn-1] == -1) {
+                front[qn-1] = i;
+            } else {
+                //link previous last element to new element
+                next[rear[qn-1]] = i;
+            }
+
+            //update next
+            next[index] = -1;
+            //update reat
+            rear[qn] = index;
+            //push element
+            arr[index] = data;
+        }
+
+        int dequeue(int qn) {
+            //underflow
+            if(front[qn-1] == -1) {
+                cout<< "Queue is empty"<< endl;
+                return -1;
+            }
+
+            //find index to pop
+            int index = front[qn-1];
+
+            //update front to next element
+            front[qn-1] = next[index];
+
+            //update free spot
+            next[index] = freeSpot;
+            freeSpot = index;
+
+            return arr[index];
+        }
+}
+
+//? Find sum of Maximum & Minimum element in all k sized window in an array
+int kSizedWindowSum(int *arr, int n, int k) {
+    deque<int> maxi(k);
+    deque<int> mini(k);
+
+    //insert the maximum & mimimum element in the first window. It will be stored in order in the queue (max in descending, min in ascending). Which element is at the front of the queue is the maximum/minimum element of the window. When window slides, we will remove the elements from the front of the queue which are not in the window anymore and reenter the new element in order.
+    for(int i=0; i<k; i++) {
+        while(!maxi.empty() && arr[i] >= arr[maxi.back()]) {
+            maxi.pop_back();
+        }
+        while(!mini.empty() && arr[i] <= arr[mini.back()]) {
+            mini.pop_back();
+        }
+
+        maxi.push_back(i);
+        mini.push_back(i);
+    }
+
+    int ans = 0;    
+    ans += arr[maxi.front()] + arr[mini.front()];
+
+    for(int i=k; i<n; i++) {
+
+        while(!maxi.empty() && maxi.front() <= i-k) {
+            maxi.pop_front();
+        }
+        while(!mini.empty() && mini.front() <= i-k) {
+            mini.pop_front();
+        }
+
+        while(!maxi.empty() && arr[i] >= arr[maxi.back()]) {
+            maxi.pop_back();
+        }
+        while(!mini.empty() && arr[i] <= arr[mini.back()]) {
+            mini.pop_back();
+        }
+
+        maxi.push_back(i);
+        mini.push_back(i);
+
+        ans += arr[maxi.front()] + arr[mini.front()];
+    }
+    return ans;
+
+}
+
 int main() {
     implementStackUsingQueue();
     implmentQueueUsingStack();
+
+    int arr[7] = {2, 5, -1, 7, -3, -1, -2};    
+    cout<< kSizedWindowSum(arr, 7, 4);
+
     return 0;
 }

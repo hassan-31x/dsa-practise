@@ -6,7 +6,7 @@ Implement a Doubly Ended Queue - (Dequeue): https://www.codingninjas.com/studio/
 
 Reverse a Queue - (using Stack or Recursion): https://www.geeksforgeeks.org/problems/queue-reversal/1
 
-First Negative number in Every Window of size K in O(n) - (Sliding Window + Deque): https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
+First First Negative number in Every Window of size K in O(n) - (Sliding Window + Deque): https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
 
 Reverse First K elements in a Queue: https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1
 
@@ -15,3 +15,5 @@ First Non-Repeating character in Preceeding String for All Characters: https://w
 Find Best Starting Point doing Circular Tour of Array - (Element dependant on Previous Elements in O(n)): https://www.geeksforgeeks.org/problems/circular-tour-1587115620/1
 
 Implement K Queues in An Array: https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/
+
+Find Sum of Maximum & Minimum Element in Every K sized Window in Array: https://www.geeksforgeeks.org/sum-minimum-maximum-elements-subarrays-size-k/
