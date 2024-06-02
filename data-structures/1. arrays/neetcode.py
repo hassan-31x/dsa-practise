@@ -2,6 +2,8 @@
 #? adding and removing value at end or at index takes O(1)
 #? inserting or removing at middle is O(n)
 
+#! STATIC ARRAY
+
 # Insert n into arr at the next open position.
 # Length is the number of 'real' values in arr, and capacity
 # is the size (aka memory allocated for the fixed size array).
@@ -38,6 +40,8 @@ def removeMiddle(arr, i, length):
 def printArr(arr, capacity):
     for i in range(capacity):
         print(arr[i])
+
+#! DYNAMIC ARRAY
 
 # Python arrays are dynamic by default, but this is an example of resizing.
 class Array:
@@ -87,6 +91,9 @@ class Array:
         for i in range(self.length):
             print(self.arr[i])
         print()
+
+
+#! STACK
 
 # Implementing a stack is trivial using a dynamic array
 # (which we implemented earlier).
