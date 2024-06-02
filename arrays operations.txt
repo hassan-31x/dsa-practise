@@ -1,0 +1,4 @@
+Arrays
+
+adding and removing value at end or at index takes O(1)
+inserting or removing at middle is O(n)
