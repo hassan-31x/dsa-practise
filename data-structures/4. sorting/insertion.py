@@ -1,4 +1,4 @@
-# O(n2)
+# O(n^2)
 def insertionSort(arr):
 	# traverse through 1 to len(arr)
     for i in range(1, len(arr)):
