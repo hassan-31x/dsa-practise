@@ -23,3 +23,21 @@ private:
         return 1 + max(left, right);
     }
 };
+
+//in python using global variable
+def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+    res = 0 // or res = [0]
+
+    def dfs(root):
+        nonlocal res // or no need
+
+        if not root:
+            return 0
+        left = dfs(root.left)
+        right = dfs(root.right)
+        res = max(res, left + right) // or res[0] = max(res[0], left + right)
+
+        return 1 + max(left, right)
+
+    dfs(root)
+    return res
